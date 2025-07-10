@@ -1,0 +1,62 @@
+
+/*------------> globan satting <---------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------> Common Styles <---------------*/
+
+.flex-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-color{
+    color: #4E47FF;
+}
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+/*------------> Header Styles Start <---------------*/
+.header{
+    max-width: 1440px;
+    height: 550px;
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+/*------------> Navbar Styles Start <---------------*/
+.nav-section{
+    height: 100px;
+    max-width: 1140px;
+    margin: 0px 150px;
+}
+.nav-section h3{
+    font-size:34px;
+    font-weight: 900;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-ul li{
+    list-style-type: none;
+}
+.nav-ul li .nav-btn{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
