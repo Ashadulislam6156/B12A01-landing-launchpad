@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: #f5f8ff;
+}
 /*------------> Common Styles <---------------*/
 
 .flex-style{
@@ -15,11 +19,11 @@
     color: #4E47FF;
 }
 
-.raleway-font{
+.raleway-font-style{
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  font-optical-sizing: auto;
 }
 
 
@@ -33,19 +37,26 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 
 }
 /*------------> Navbar Styles Start <---------------*/
 .nav-section{
     height: 100px;
     max-width: 1140px;
-    margin: 0px 150px;
+    margin: 0 120px;
 }
-.nav-section h3{
+.nav-section h1{
     font-size:34px;
     font-weight: 900;
     text-align: left;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-ul li{
@@ -58,5 +69,102 @@
     color: white;
     font-size: 16px;
     text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.nav-ul li .nav-btn:hover{
+    filter: brightness(1.5);
+}
+
+/*------------> Banner Styles Start <---------------*/
+
+.banner-content{
+    max-width: 905px;
+    height: 230px;
+    margin: 140px 250px;
+    position: relative;
+
+}
+.banner-content .banner-title{
+    font-size: 55px;
+    text-align: center;
+    color: #252432;
+
+}
+.banner-btn{
+    width: 155px;
+    height: 50px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    transform: translateX(-50%,-50%);
+    transition: background-color 1s ease;
+    cursor: pointer;
+
+}
+.banner-btn:hover{
+    background-color: #4d47ffac;
+
+}
+
+/*------------> main Styles Start <---------------*/
+
+.main{
+    max-width: 1140px;
+    height: 328px;
+    margin: 120px 120px;
+
+}
+/*------------> Action Styles Start <---------------*/
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.action-left h1{
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-left p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: rgb(37, 36, 50,0.8);
+    width: 507px;
+    margin-bottom: 23px;
+}
+
+.action-left button{
+   padding: 12px 36px;
+   border-radius: 10px;
+   background-color: #4E47FF;
+   color: white;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   transition: 1s ease-in;
+   cursor: pointer;
+}
+.action-left button:hover{
+    filter: brightness(1.5);
+
+}
+.action-right img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 
 }
