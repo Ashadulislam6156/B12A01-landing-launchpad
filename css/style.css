@@ -82,6 +82,7 @@ body{
 }
 .nav-ul li .nav-btn:hover{
     filter: brightness(1.5);
+    font-size: 18px;
 }
 
 /*------------> Banner Styles Start <---------------*/
@@ -112,12 +113,14 @@ body{
     bottom: 0px;
     left: 40%;
     transform: translateX(-50%,-50%);
-    transition: background-color 1s ease;
+    transition: 1s ease;
     cursor: pointer;
 
 }
 .banner-btn:hover{
     background-color: #4d47ffac;
+    width: 145px;
+    height: 40px;
 
 }
 
@@ -153,7 +156,7 @@ body{
     margin-bottom: 23px;
 }
 
-.action-left button{
+.action-left button {
    padding: 12px 36px;
    border-radius: 10px;
    background-color: #4E47FF;
@@ -163,11 +166,15 @@ body{
    outline: none;
    transition: 1s ease-in;
    cursor: pointer;
+   font-weight: 700;
 }
 .action-left button:hover{
-    filter: brightness(1.5);
-
+    filter: brightness(2);
+    color: rgb(26, 172, 217);
 }
+
+
+
 .action-right img{
     width: 403px;
     height: 328px;
@@ -337,6 +344,9 @@ body{
 }
 .focus-btn:hover{
     filter: brightness(1.5);
+    background-color: rgb(187, 26, 212);
+    color: rgb(17, 228, 239);
+    font-size: 17px;
 }
 .focus-section img{
     width: 840px;
@@ -431,7 +441,7 @@ body{
     transition: 1s ease;
 }
 .touch-right button:hover{
-    background-color: #25218d;
+    background-color: green;
     color: #e6e7fe;
 }
 
