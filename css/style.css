@@ -364,7 +364,7 @@ body{
     height: 232px;
 }
 .touch-left h1{
-    font-size: 85px;
+    font-size: 80px;
     text-align: left;
     color: #000000;
 }
@@ -385,6 +385,7 @@ body{
 .touch-right textarea,
 .touch-right button {
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 .touch-right label{
     font-size: 18px;
