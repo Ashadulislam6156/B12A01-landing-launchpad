@@ -26,14 +26,6 @@ body{
   font-optical-sizing: auto;
 }
 
-.display-flex-clear::after{
-    display: block;
-    clear: both;
-    content: '';
-}
-
-
-
 
 /*------------> Header Styles Start <---------------*/
 .header{
