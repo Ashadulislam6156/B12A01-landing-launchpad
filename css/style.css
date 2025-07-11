@@ -26,6 +26,12 @@ body{
   font-optical-sizing: auto;
 }
 
+.display-flex-clear::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
 
 
 
@@ -37,7 +43,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 
 }
 /*------------> Navbar Styles Start <---------------*/
@@ -119,8 +125,8 @@ body{
 
 .main{
     max-width: 1140px;
-    height: 328px;
-    margin: 120px 120px;
+    height: auto;
+    margin: 120px 120px 0px 120px;
 
 }
 /*------------> Action Styles Start <---------------*/
@@ -167,4 +173,301 @@ body{
     height: 328px;
     border-radius: 48px;
 
+}
+
+/*------------> Counter Styles Start <---------------*/
+
+.Counter-section{
+   max-width: 1140px;
+   height: 306px;
+   background-color: #e6e7fe;
+   border-radius: 24px;
+   margin-top: 120px;
+
+}
+.counter-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 167px;
+}
+.Counter-section .Counter-section-title{
+    font-size: 38px;
+    padding-top: 40px;
+    color: #252432;
+    text-align: center;
+
+}
+.counter-inner h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+
+}
+.counter-inner{
+    text-align: center;
+}
+.counter-inner p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+/*------------> Feedback Styles Start <---------------*/
+
+.feedback-section{
+    max-width: 1142px;
+    height: 342px;
+    margin-top: 120px;
+
+}
+.feedback-section .feedback-title{
+    text-align: center;
+    font-size: 42px;
+    color: #252432;
+}
+
+.feedback-user-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    gap: 20px;
+
+}
+.user1{
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: 2px 2px 1px #F2EDED,-2px -2px 1px #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+    gap: 24px;
+   
+}
+.user1 .star img{
+    width: 17px;
+    height: auto;
+
+}
+.user1 h1{
+     font-family: "Open Sans", sans-serif;
+     font-size: 18px;
+     margin: 10px 0px;
+     text-align: left;
+}
+.user1 .user-para{
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin: 10px 0px;
+    text-align: left;
+}
+.user-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.user-content img{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+
+}
+.user-ditals{
+    margin-left: 12px;
+    margin-top: 5px;
+
+}
+.user-ditals h2{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #252432;
+    font-weight: 700;
+
+}
+.user-ditals p{
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    color: #252432e9;
+    font-weight: 400;
+}
+
+/*------------> Focus Styles Start <---------------*/
+
+.focus-section{
+    max-width: 1140px;
+    height: 495px;
+    padding: 70px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 80px;
+    row-gap: 20px;
+    border-radius: 14px;
+}
+.focus-title{
+    font-size: 50px;
+    color: #000000;
+
+}
+.focus-section p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #252432;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.focus-btn{
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px #e6e7fe,-1px -1px 1px #e6e7ef;
+    background-color: #4E47FF;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+.focus-btn:hover{
+    filter: brightness(1.5);
+}
+.focus-section img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+
+}
+
+/*------------> Touch Styles Start <---------------*/
+ .touch-section {
+    max-width: 1140px;
+    height: auto;
+    padding-top: 71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.touch-left {
+    
+    width: 528px;
+    height: 232px;
+}
+.touch-left h1{
+    font-size: 85px;
+    text-align: left;
+    color: #000000;
+}
+.touch-right {
+    width: 497px;
+    height: 490px;
+}
+
+.touch-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  
+}
+
+.touch-right input,
+.touch-right textarea,
+.touch-right button {
+    box-sizing: border-box;
+}
+.touch-right label{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    color: #000000;
+
+}
+.touch-right input{
+    width: 497px;
+    height: 40px;
+    padding: 20px 32px;
+    box-shadow: 1px 1px 1px #D6DDED,-1px -1px 1px #D6DDED;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.touch-right textarea{
+    width: 497px;
+    height: 135px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #D6DDED,-1px -1px 1px #D6DDED;
+    resize: none;
+    border: none;
+    outline: none;
+}
+.touch-right button{
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px #e6e7fe,-1px -1px 1px #e6e7ef;
+    background-color: #4E47FF;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.touch-right button:hover{
+    background-color: #25218d;
+    color: #e6e7fe;
+}
+
+/*------------> footer Styles Start <---------------*/
+.footer{
+    max-width: 1440px;
+    height: 428px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #00000028,-1px -1px 1px #00000028;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    text-align: center;
+    width: 531px;
+    height: 221px;
+}
+.footer-content h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+.footer-conten p{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    color: #8987a1dd;
+    text-align: center;
+    width: 531px;
+
+}
+.footer-ul{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
 }
